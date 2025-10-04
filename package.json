@@ -1,7 +1,7 @@
 {
   "name": "poke-clock",
   "displayName": "poke-clock",
-  "description": "Pokemon Clock on VS Code",
+  "description": "Pokemon-inspired clock on VS Code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.104.0"
@@ -13,22 +13,13 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [],
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "pokeClockSidebar",
-          "title": "Poke Clock",
-          "icon": "media/icon.svg"
-        }
-      ]
-    },
     "views": {
       "explorer": [
         {
           "type": "webview",
           "id": "pokeClockView",
-          "name": "Poke Clock",
-          "icon": "media/icon.svg"
+          "name": "poke-clock",
+          "icon": "media/icon.png"
         }
       ]
     }
