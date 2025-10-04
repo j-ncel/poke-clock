@@ -3,6 +3,7 @@
   "displayName": "poke-clock",
   "description": "Pokemon-inspired clock on VS Code",
   "publisher": "j-ncel",
+  "icon": "media/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/j-ncel/poke-clock.git"
@@ -11,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/j-ncel/poke-clock/issues"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.104.0"
   },
