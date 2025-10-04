@@ -19,8 +19,8 @@ Pokémon-inspired digital clock extension for Visual Studio Code.
 ### Installation
 
 - Get it from the [VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=j-ncel.poke-clock).
-- On VS Code open, search for `poke-shade` in the extension panel (`Ctrl+Shift+X` on Windows/Linux or `Cmd(⌘)+Shift+X` on MacOS) and click install.
-- On VS Code open, launch VS Code Quick Open (`Ctrl+P` on Windows/Linux or `Cmd(⌘)+P` on MacOS), paste the following command `ext install j-nce.poke-shade` , and press enter.
+- On VS Code open, search for `poke-clock` in the extension panel (`Ctrl+Shift+X` on Windows/Linux or `Cmd(⌘)+Shift+X` on MacOS) and click install.
+- On VS Code open, launch VS Code Quick Open (`Ctrl+P` on Windows/Linux or `Cmd(⌘)+P` on MacOS), paste the following command `ext install j-ncel.poke-clock` , and press enter.
 
 ### Usage
 
