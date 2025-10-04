@@ -5,11 +5,11 @@
   "publisher": "j-ncel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juncel-dev/poke-clock.git"
+    "url": "https://github.com/j-ncel/poke-clock.git"
   },
-  "homepage": "https://github.com/juncel-dev/poke-clock",
+  "homepage": "https://github.com/j-ncel/poke-clock",
   "bugs": {
-    "url": "https://github.com/juncel-dev/poke-clock/issues"
+    "url": "https://github.com/j-ncel/poke-clock/issues"
   },
   "version": "0.0.1",
   "engines": {
