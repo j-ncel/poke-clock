@@ -2,6 +2,7 @@
   "name": "poke-clock",
   "displayName": "poke-clock",
   "description": "Pokemon-inspired clock on VS Code",
+  "publisher": "j-ncel",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.104.0"
