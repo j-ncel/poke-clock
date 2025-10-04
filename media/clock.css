@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at center, #1e1e2f, #0d0d1a);
+  color: #00ffe0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 10px;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+#pokemonImage {
+  width: 40vw;
+  max-width: 200px;
+  height: auto;
+  object-fit: contain;
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease;
+}
+
+#pokemonImage,
+.digital-clock {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#pokemonImage:active,
+.digital-clock:active {
+  transform: scale(1.05);
+}
+
+.clock-container {
+  width: 80%;
+  padding: 6vh 4vw;
+  border: 2px solid #00ffe0;
+  border-radius: 16px;
+  box-shadow: 0 0 25px #00ffe0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  animation: blink 1s infinite;
+}
+
+.digital-clock {
+  font-family: "Audiowide", sans-serif;
+  font-size: clamp(1.5em, 4vw, 2.5em);
+  letter-spacing: 0.1em;
+  animation: blink 1s infinite, breathe 4s ease-in-out infinite;
+  text-shadow: 0 0 8px #00ffe0, 0 0 16px #00ffe0;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 0.95;
+  }
+}
