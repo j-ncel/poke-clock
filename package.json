@@ -3,12 +3,30 @@
   "displayName": "poke-clock",
   "description": "Pokemon-inspired clock on VS Code",
   "publisher": "j-ncel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juncel-dev/poke-clock.git"
+  },
+  "homepage": "https://github.com/juncel-dev/poke-clock",
+  "bugs": {
+    "url": "https://github.com/juncel-dev/poke-clock/issues"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.104.0"
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "clock",
+    "digital",
+    "sidebar",
+    "pokemon",
+    "glow",
+    "explorer",
+    "webview",
+    "pokeapi"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
