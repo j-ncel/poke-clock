@@ -1,14 +1,14 @@
 <div align='center'>
 
-<img src="media/icon.png" alt="poke-clock icon" width="200" />
+<img src="https://raw.githubusercontent.com/j-ncel/poke-clock/refs/heads/main/media/icon.png" alt="poke-clock icon" width="200" />
 
 # poke-clock
 
 Pokémon-inspired digital clock extension for Visual Studio Code.
 
-</div>
+![preview](https://raw.githubusercontent.com/j-ncel/poke-clock/refs/heads/main/media/preview.gif)
 
-![preview](media/preview.gif)
+</div>
 
 ### Features
 
